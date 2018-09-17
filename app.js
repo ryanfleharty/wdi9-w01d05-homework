@@ -138,3 +138,8 @@
 		}
 	}	
 	console.log(sumMultiples);
+
+//Q11.1 Talk About it 
+//	Things in arrays are elements
+//	Arrays do guarantee everything will be in order
+//	A list of classmates
