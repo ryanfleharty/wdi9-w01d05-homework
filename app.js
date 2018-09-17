@@ -164,3 +164,16 @@
 	ourClass[4] = "Octocat";
 	ourClass.push("Cloud City");
 
+//Q15.1 Mix it up
+
+	const myArray = [5, 10, 500, 20];
+
+	myArray.push("Egon");
+	myArray.shift();
+	myArray.unshift("Bob Marley");
+	myArray.pop();
+	myArray.reverse();
+	//the array was mutated. This mean the actual array itself was changed, like with pop. It's
+	//not just returning a copy of the changed array, it also returns the reverse of the array.
+
+	
