@@ -125,3 +125,16 @@
 		bank_account +=i*2;
 	}
 	console.log(bank_account);
+
+//Q10.1 Multiples of 3 and 5, I did this already but I like practice
+	
+	let sumMultiples = 0;
+	for (let i =1; i < 1000; i++){
+		if (i%3 == 0){
+			sumMultiples += i;
+		}
+		if ((i%5 === 0) && !(i%3===0)){
+			sumMultiples += i;
+		}
+	}	
+	console.log(sumMultiples);
