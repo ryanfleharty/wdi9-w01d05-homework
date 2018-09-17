@@ -72,7 +72,22 @@
 
 //Q6.3 The Basics every third 12-400
 
-	for (let i =12; i<=4000; i = i+3){
+	for (let i =12; i<=4000; i =i+3){
 		console.log(i);
 	}
 	
+//Q7.1 Even numbers between 1 and 100
+
+	for (let i = 2; i<=100; i = i+2){
+		console.log(i);
+	}
+//Q7.2 All numbers but say its even
+
+	for (let i =1; i <=100; i ++){
+		if (i%2==0){
+			console.log(`${i} <-- this is even`);
+		}
+		else{
+			console.log(i);
+		}
+	}
