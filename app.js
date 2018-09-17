@@ -58,3 +58,21 @@
 		console.log("sorry you're too young");
 	}
 
+//Q6.1 The Basics 0-10 inclusive
+
+	for (let i = 0; i <=10; i++){
+		console.log(i);
+	}
+	
+//Q6.2 The Basics 10 to 400
+	
+	for (let i = 10; i<=400; i++){
+		console.log(i);
+	}
+
+//Q6.3 The Basics every third 12-400
+
+	for (let i =12; i<=4000; i = i+3){
+		console.log(i);
+	}
+	
