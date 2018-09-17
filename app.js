@@ -6,3 +6,18 @@
 //Q1.5 Pseudocode is half code half english that helps you plan for your code
 //Q1.6 75% planning 25% coding
 //
+//
+//Q2.1
+
+	let firstVariable = "Hello World";
+	firstVariable = 6;
+	let secondVariable = firstVariable;
+	secondVariable = "Doggy";
+//The value of firstVariable is now 6
+
+//Q2.2
+
+	let yourName = "Jack Bogart";
+	console.log(`Hello, my name is ${yourName});
+
+//Q3.
