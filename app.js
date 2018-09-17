@@ -155,3 +155,12 @@
 
 	randomThings[2] = "World";
 	console.log(randomThings[2]);
+
+//Q14.1 Change Values 
+
+	const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
+	//write ourClass[2] to access the 3rd element
+
+	ourClass[4] = "Octocat";
+	ourClass.push("Cloud City");
+
