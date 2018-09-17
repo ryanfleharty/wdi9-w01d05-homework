@@ -176,4 +176,12 @@
 	//the array was mutated. This mean the actual array itself was changed, like with pop. It's
 	//not just returning a copy of the changed array, it also returns the reverse of the array.
 
-	
+//Q16 Biggie Smalls
+
+	const doohickey = 6;
+	if (doohickey <100){
+		console.log("little number");
+	}
+	if (doohickey >=100){
+		console.log("Bib boi");
+	}
