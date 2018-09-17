@@ -148,3 +148,10 @@
 	
 	const quotes = ['Dogs are cool', 'Cats are cool', 'horses are cool'];
 
+//Q13.1 Access elements
+
+	const randomThings = [1, 10, "Hello", true];
+	//access first element with randomThings[0];
+
+	randomThings[2] = "World";
+	console.log(randomThings[2]);
