@@ -37,3 +37,13 @@
 	console.log(a < b < c);
 	console.log((a*a) ===  d);
 	console.log(48 == '48');
+
+//Q4. The Farm
+
+	const animal = "cow";
+	if (animal == "cow"){
+		console.log('mooooo');
+	}
+	else {
+		console.log("You ain't a cow");
+	}
