@@ -108,3 +108,20 @@
 			console.log(`I foudn a ${i}. High Five!`);
 		}
 	}
+
+//Q9.1 Savings account
+
+	let bank_account = 0;
+
+	for (let i = 1; i<=10; i++){
+		bank_account +=i;
+	}
+	console.log(bank_account);
+	
+//Q9.2 Doubled
+
+	bank_account = 0;
+	for (let i =1; i<=100; i++){
+		bank_account +=i*2;
+	}
+	console.log(bank_account);
