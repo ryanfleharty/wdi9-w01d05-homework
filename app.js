@@ -185,3 +185,15 @@
 	if (doohickey >=100){
 		console.log("Bib boi");
 	}
+
+//Q17 Monkey in the Middle
+
+	if (doohickey < 5){
+		console.log("little number");
+	}
+	else if (doohickey > 10){
+		console.log("Big Number");
+	}
+	else {
+		console.log("Monkey");
+	}
