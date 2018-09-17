@@ -91,3 +91,20 @@
 			console.log(i);
 		}
 	}
+
+//Q8.1 Give me Five
+
+	for (let i = 5; i <=100; i += 5){
+		console.log(`I found a ${i}. High Five`);
+	}
+
+//Q8.2 Three is a crowd
+
+	for (let i =1; i <=100; i++){
+		if (i%3==0){
+			console.log(`I found a ${i}. Three is a crowd!`);
+		}
+		if (i%5 == 0){
+			console.log(`I foudn a ${i}. High Five!`);
+		}
+	}
