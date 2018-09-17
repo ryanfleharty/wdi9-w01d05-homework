@@ -143,3 +143,8 @@
 //	Things in arrays are elements
 //	Arrays do guarantee everything will be in order
 //	A list of classmates
+
+//Q12.1 Quotes
+	
+	const quotes = ['Dogs are cool', 'Cats are cool', 'horses are cool'];
+
