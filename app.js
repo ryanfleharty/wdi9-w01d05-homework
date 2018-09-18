@@ -378,3 +378,8 @@
 
 	const user = {name: "loser", email: "horse@dog.com", age: 3000, purchased: []};
 	console.log(user);
+
+//Q31
+	
+	user.email = "dog@horse.com";
+	user.age++;
