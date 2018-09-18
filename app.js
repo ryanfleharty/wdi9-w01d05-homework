@@ -412,3 +412,15 @@
 	for (let i = 0; i < user.friend.purchased.length; i++){
 		console.log(user.friend.purchased[i]);
 	}
+
+//Q36 
+
+	const updateUser = () => {
+		user.age++;
+		user.name = user.name.toUpperCase();
+	}
+
+	const oldAndLoud = (person) => {
+		person.age++;
+		person.name = person.name.toUpperCase();
+	}
