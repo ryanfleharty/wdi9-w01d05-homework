@@ -383,3 +383,8 @@
 	
 	user.email = "dog@horse.com";
 	user.age++;
+
+//Q32
+
+	user.location = "cleveland";
+
