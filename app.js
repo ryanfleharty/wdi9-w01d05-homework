@@ -391,3 +391,15 @@
 
 	user.purchased.push("carbs", "peace of mind", "merino jodhpurs");
 	console.log(user.purchased[2]);
+
+//Q34
+
+	user.friend = {
+		name: "mary", age: 3, location: "dallas", purchased: []
+	};
+	console.log(user.friend.name);
+	console.log(user.friend.location);
+	user.friend.age = 55;
+	user.friend.purchased.push("the one ring", "latte");
+	console.log(user.friend.purchased[1]);
+	
