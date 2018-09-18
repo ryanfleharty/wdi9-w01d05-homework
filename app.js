@@ -239,3 +239,10 @@
 	const outfit = [thomsCloset[0][0], thomsCloset[1][0], thomsCloset[2][0]];
 	console.log(`Thom is looking fiernce in a ${outfit[0]}, ${outfit[1]}, and ${outfit[2]}`);
 	thomsCloset[1][2] = "Footie Pajamas";
+
+//Q19 print greeting
+
+	const printGreeting = (name) => {
+		console.log(`${name} is cool`);
+	}
+
