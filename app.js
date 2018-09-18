@@ -257,5 +257,11 @@
 	const calcCube = (number) =>{
 		console.log(number**3);
 	}
+//Q22 
 
+	const isVowel = (vowel) => {
+	if ((vowel.toLowerCase() === "a") || (vowel.toLowerCase() === "e") || (vowel.toLowerCase === "i") || (vowel.toLowerCase() === "o") || (vowel.toLowerCase() === "u")){ 
+			return true;
+	}}
+	console.log(isVowel("E"));
 
