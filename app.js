@@ -271,3 +271,14 @@
 		const arr = [str1.length, str2.length];
 		return arr;
 	}
+
+//Q24
+
+	const getMultipleLengths = (arr) =>{
+		const lengths = [];
+		for (let i = 0; i < arr.length; i++){
+			lengths.push(arr[i].length);
+		}		
+		return lengths;
+	}
+	console.log(getMultipleLengths(['arr', 'dog', 'skirt']));
