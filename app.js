@@ -335,3 +335,12 @@
 		console.log(reverse);
 	}
 	reverseWordOrder("dog eats food so quickly that it's crazy");
+
+//Q29
+
+	const ranInt1to10 = () =>{
+		return Math.ceil(Math.random()*10);
+	}
+	for (let i = 0; i < 10; i++){
+		console.log(ranInt1to10());
+	}
