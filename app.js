@@ -243,6 +243,14 @@
 //Q19 print greeting
 
 	const printGreeting = (name) => {
-		console.log(`${name} is cool`);
+		console.log(`${name}, is here! Hi!`);
 	}
+
+//Q20 print Cool
+
+	const printCool = (name) =>{
+		console.log(`${name} is super cool`);
+	}
+
+//Q21
 
