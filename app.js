@@ -254,3 +254,8 @@
 
 //Q21
 
+	const calcCube = (number) =>{
+		console.log(number**3);
+	}
+
+
