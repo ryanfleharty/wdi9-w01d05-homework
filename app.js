@@ -301,3 +301,10 @@
 		}
 		return max;
 	}
+
+//Q27
+
+	const transmogrify = (num1, num2, num3) =>{
+		return ((num1*num2)**num3);
+	}
+
