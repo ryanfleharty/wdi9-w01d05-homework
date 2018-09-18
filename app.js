@@ -344,3 +344,37 @@
 	for (let i = 0; i < 10; i++){
 		console.log(ranInt1to10());
 	}
+
+	const ranInt10to100 = () =>{
+		return Math.floor((Math.random()*90) + 10);
+	}
+	
+	for (let i = 0; i < 10; i++){
+		console.log(ranInt10to100());
+	}
+
+	const ranInt532to13267 = () =>{
+		return Math.floor((Math.random()*12735)+532);
+	}
+	
+	for (let i = 0; i < 10; i++){
+		console.log(ranInt532to13267());
+	}
+
+	const ranNum = () => {
+		return (Math.random()*9)+1;
+	}
+	
+	for (let i = 0; i < 10; i++){
+		console.log(ranNum());
+	}
+
+	const getRandomQuote = (arr) => {
+		console.log(arr[Math.floor(Math.random()*arr.length)]);
+	}
+	getRandomQuote(quotes);
+
+//Q30 make a user object
+
+	const user = {name: "loser", email: "horse@dog.com", age: 3000, purchased: []};
+	console.log(user);
