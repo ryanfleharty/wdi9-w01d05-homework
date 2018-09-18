@@ -265,3 +265,9 @@
 	}}
 	console.log(isVowel("E"));
 
+//Q23
+
+	const getTwoLengths = (str1, str2) => {
+		const arr = [str1.length, str2.length];
+		return arr;
+	}
