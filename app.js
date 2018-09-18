@@ -387,4 +387,7 @@
 //Q32
 
 	user.location = "cleveland";
+//Q33
 
+	user.purchased.push("carbs", "peace of mind", "merino jodhpurs");
+	console.log(user.purchased[2]);
