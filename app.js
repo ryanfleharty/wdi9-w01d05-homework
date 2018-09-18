@@ -402,4 +402,13 @@
 	user.friend.age = 55;
 	user.friend.purchased.push("the one ring", "latte");
 	console.log(user.friend.purchased[1]);
+
+//Q35
+
+	for (let i = 0; i <user.purchased.length; i++){
+		console.log(user.purchased[i]);
+	}
 	
+	for (let i = 0; i < user.friend.purchased.length; i++){
+		console.log(user.friend.purchased[i]);
+	}
