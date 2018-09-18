@@ -308,3 +308,30 @@
 		return ((num1*num2)**num3);
 	}
 
+//Q28
+
+	const reverseWordOrder = (str) => {
+		console.log(str);
+		let temp = "";
+		const words = [];
+		for (let i = 0; i <str.length; i++){
+			if ((str[i] != " " )){
+				temp = temp + str[i];
+			}
+			else {
+				words.push(temp);	
+				temp = "";
+			}
+		}
+
+		//if you see this, can I do this without including this push?
+	
+		words.push(temp);
+
+		let reverse = "";
+		for (let i = words.length-1; i >= 0; i--){
+			reverse = reverse + words[i] + " ";
+		}
+		console.log(reverse);
+	}
+	reverseWordOrder("dog eats food so quickly that it's crazy");
