@@ -1,3 +1,5 @@
+//Setup
+
 //Reverse Word Order
 //This function will grab the word starting at the index it is passed.
 const get_word = (index, string) => {
@@ -89,4 +91,3 @@ const get_random_element = (array) => {
  //
  //Objects
  //
- 
