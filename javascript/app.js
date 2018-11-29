@@ -175,7 +175,67 @@ thomsCloset[1].splice(2,1,"Footie Pajamas");
 console.log(kristynsCloset);
 
 //Functions
-
+//B.
+const isCool = (name) => {
+  console.log(`${name} is cool!`);
+}
+//C.
+const cubeNumber = (number) => {
+  console.log(number*number*number);
+}
+//D.
+const isVowel = (char) => {
+  if(char.toLowerCase() === "a" || char.toLowerCase() === "e" || char.toLowerCase() === "i" || char.toLowerCase() === "o" || char.toLowerCase() === "u"){
+    return true;
+  }else{
+    return false;
+  }
+}
+//E.
+const letterCount = (word1, word2) => {
+  const letterCounts = [word1.length,word2.length];
+  return letterCounts;
+}
+//F.
+const getLengths = (words) => {
+  let letterCounts = [];
+  for(let i=0;i<words.length;i++){
+    letterCounts.push(words[i].length);
+  }
+  return letterCounts;
+}
+//G.
+const returnMax = (numbers) => {
+  let biggest = 0;
+  for(let i = 0;i<numbers.length;i++){
+    if(biggest < numbers[i]){
+      biggest = numbers[i]
+    }
+  }
+  return biggest;
+}
+//H.
+const printLongestWord = (words) => {
+  let longestLength = 0;
+  let longestLocation = 0;
+  for(let i = 0;i<words.length;i++){
+    if(words[i].length > longestLength){
+      longestLength = words[i].length;
+      longestLocation = i;
+    }
+  }
+  return(words[longestLocation]);
+}
+//I.
+const transmogrify = (num1,num2,num3) => {
+  let num = num1*num2;
+  let finalNum = 1;
+  for(let i = 0;i<num3;i++){
+    finalNum = finalNum*num;
+  }
+  return(finalNum);
+}
+//J.
 //Reverse Word Order
 //This function will grab the word starting at the index it is passed.
 const get_word = (index, string) => {
@@ -229,6 +289,7 @@ const reverse_words = (sentence) => {
 reverse_words("This is a test run!");
 reverse_words("it appears to be working.");
 
+//K.
 //Get down and dirty with math.random
 //This function will return a random number between 0 and 1, inclusive.
 const zero_to_one_inclusive = () => {
@@ -264,6 +325,51 @@ const get_random_element = (array) => {
   return array[inclusive_random_int(0,(array.length-1))];
 }
 
- //
- //Objects
- //
+//
+//Objects
+//
+//A.
+const user = {
+  name: "bob",
+  email: "bob",
+  age: 1,
+  purchased: []
+}
+//B.
+user.email=("notbob")
+user.age++
+console.log(user);
+//C.
+user.location=("Denver");
+//D.
+user.purchased.push("carbohydrates","peace of mind","merino jodhpurs");
+console.log(user.purchased[3]);
+//E.
+user.friend = {
+    name: "Grace Hopper",
+    age: 85,
+    location: "Denver",
+    purchased: []
+}
+console.log(user.friend.name,user.friend.location);
+user.friend.age = 55;
+user.friend.purchased.push("latte","the one ring");
+console.log(user.friend.purchased[0]);
+//F.
+for(let i = 0;i<user.purchased.length;i++){
+  console.log(user.purchased[i])
+}
+for(let i = 0;i<user.friend.purchased.length;i++){
+  console.log(user.friend.purchased[i])
+}
+//G.
+const updateUser = () => {
+  user.age++;
+  user.name=user.name.toUpperCase();
+}
+const oldAndLoud = (person) => {
+  person.age++;
+  person.name=person.name.toUpperCase()
+}
+oldAndLoud(user);
+console.log(user);
